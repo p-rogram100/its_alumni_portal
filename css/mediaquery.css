@@ -1,0 +1,33 @@
+
+/* viewport less than 750px */
+ @media only screen   
+ and (min-device-width : 320px)   
+ and (max-device-width : 750px) 
+{
+   /* navbar */
+.cnav .cnav-menu
+{
+  flex-direction: column;
+  overflow: scroll;
+}
+.cnav .nav-itemsc
+{
+  flex-direction: column;
+
+
+}
+.cnav .cctoggle-collapse
+{
+    display: initial;
+}
+/* -x-x--x-x-x-navbar ends */
+
+.main .site-title
+{
+    border-radius: 0 0 0 0;
+}
+
+
+}
+
+/*-----xxxxx----- viewport less than 750px ---xxx----*/
