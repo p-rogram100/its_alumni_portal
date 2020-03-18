@@ -1,0 +1,180 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+    <title> I.T.S. Alumni Portal</title>
+    <!--libraries  -->
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+       <link rel="stylesheet" href="lib/animate/animate.min.css">
+       <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+       <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css"> 
+       <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"> -->
+        <!-- end libraries -->
+        
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/mediaquery.css">
+        <link rel="stylesheet" href="css/login_register.css">
+        <script src="lib/jquery/jquery.min.js"></script>
+        <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+        <!-- <script src="js/basic/test.js"></script> -->
+        <!-- <script src="https://kit.fontawesome.com/27936ba74c.js" crossorigin="anonymous"></script> -->
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+        <script></script>
+        <!-- custom css ends-->
+    </head>
+    <body>
+<!-- --------------------navigation -->
+       
+
+<div class="container-fluid sticky-top bg-light">
+    <div class="row">
+        <div class="col-md-3">
+            <h3 class="website_heading"> I.t.s. alumni portal</h3>
+        </div>
+        <div class="col-md-9">
+                
+<nav>
+    
+    <a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-bars"></i> Menu</a>    
+       <ul class="menu">
+       <li><a  href="main.html"><i class="fa fa-home"></i> HOME</a>
+      
+       </li>
+      <li><a  href="#"><i class="fa fa-user"></i> ABOUT I.t.s.</a></li>
+      <li><a  href="#"><i class="fa fa-camera"></i> Alumni</a>
+      <ul class="sub-menu">
+       <li><a href="#">alumni dictionary</a></li>
+       <li><a href="#">Job Portal</a>
+        
+       </li>
+         <li><a href="#">Articles</a>
+        
+       </li>
+       </ul>
+      </li>
+      <li><a  href="#"><i class="fa fa-bullhorn"></i> Events</a></li>
+        <li><a  href="#"><i class="fa fa-tags"></i> Gallery</a>
+     
+       </li>
+         
+      <li><a  href="#"><i class="fa fa-envelope"></i> CONTACT</a></li>
+      <li><a  href="#"><i class="fa fa-envelope"></i> LOgin</a></li>
+      <!-- <li><a  href="#"><i class="fa fa-envelope"></i> logout</a></li>
+      <li><a  href="#"><i class="fa fa-envelope"></i> Dashboard</a></li> -->
+     
+       <li> <a href="#"><i class="fa fa-facebook-f"></i></a>
+       </li>
+       <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+       
+       <li> <a href="#"><i class="fa fa-youtube"></i></a></li>
+      </ul>
+      </nav>
+
+        </div>
+    </div>
+</div>
+     <!-------------xx-------------navigation -->
+    
+     <!-- login signup -->
+
+     <div class="row">
+        <div class="col-md-6 mx-auto p-0">
+            <div class="card">
+                <div class="login-box">
+                    <div class="login-snip"> <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Login</label> <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+                        <div class="login-space">
+                            <div class="login">
+                                <div class="group"> <label for="user" class="label">Username</label> <input id="user" type="text" class="input" placeholder="Enter your username"> </div>
+                                <div class="group"> <label for="pass" class="label">Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Enter your password"> </div>
+                                <div class="group"> <input id="check" type="checkbox" class="check" checked> <label for="check"><span class="icon"></span> Keep me Signed in</label> </div>
+                                <div class="group"> <input type="submit" class="button" value="Sign In"> </div>
+                                <div class="hr"></div>
+                                <div class="foot"> <a href="#">Forgot Password?</a> </div>
+                            </div>
+                            <!-- <div class="sign-up-form">
+                                <div class="group"> <input id="name" type="text" class="input" placeholder=" Name"> </div>
+                                <div class="group">  <input id="contact_id" type="text" class="input" placeholder=" Contact"> </div>
+                                <div class="group">  <input id="email_add" type="email" class="input" placeholder="Enter your email address"> </div>
+                                <div class="group">  <input id="pass" type="password" class="input" data-type="password" placeholder="Create your password"> </div>
+                                <div class="group">  <input id="con_pass" type="password" class="input" data-type="password" placeholder="Repeat your password"> </div>
+                                <div class="group">  <input id="dob" type="date" class="input" placeholder="Date of birth"> </div>                                
+                                <div class="group"> <input type="submit" class="button" value="Sign Up"> </div>
+                                <div class="hr"></div>
+                               
+                            </div> -->
+                            <div class="sign-up-form">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="group"> <label for="user" class="label">Name</label> <input id="user" type="text" class="input" > </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="group"> <label for="contact_id" class="label">Contact</label> <input id="contact_id" type="text" class="input">  </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="group"> <label for="email_add" class="label">Email id</label> <input id="email_add" type="email" class="input"> </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="group"> <label for="dob" class="label">Date of birth</label> <input id="dob" type="date" class="input">  </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="group"> <label for="Batch" class="label">Batch</label> <input id="Batch" type="text" class="input" > </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="group"> <label for="course" class="label">Course</label> <input id="yop" type="text" class="input">  </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="group"> <label for="fathername" class="label">Father Name</label> <input id="fathername" type="text" class="input" > </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="group"> <label for="pass" class="label">Password</label> <input id="pass" type="pass" class="input">  </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="group"> <label for="exampleFormControlTextarea2" class="label">Address</label>
+                                            <textarea class="form-control rounded-0 textarea" id="exampleFormControlTextarea2" rows="3"></textarea> </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="row">
+                                    <div class="group text-cente"> <input type="submit" class="button r" value="Sign Up"> </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- --x--x--x--x- login signup -->
+     
+
+      <!-- js libraries -->
+      <script src="lib/jquery/jquery.min.js"></script>
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="lib/js/bootstrap.bundle.min.js"></script>
+       -->
+      
+      
+      
+      
+      
+      <!-- custom js files -->
+      <script src="js/basic/main.js"></script>
+    
+    </body>
+</html>
